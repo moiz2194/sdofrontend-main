@@ -19,7 +19,7 @@ const Footer = () => {
 
                 <div className={styles["footer-column"]}>
                     <h2 className={`${styles["footer-title"]} my-3`}>Contact Support</h2>
-                    <a class={styles["footer-link"]} href="mailto:support@sdo.life">support@sdo.life</a>
+                    <a class={styles["footer-link"]} href="mailto:support@onedollartree.store">support@onedollartree.store</a>
                     <a class={styles["footer-link"]} href="https://wa.me/+17867764703">+1 (786) 776-4703</a>
                 </div>
 
