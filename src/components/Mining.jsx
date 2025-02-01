@@ -12,7 +12,7 @@ const MiningButton = ({ currentminingtime }) => {
 
         const updateTimer = () => {
             const now = new Date();
-            const diff = miningStartTime.getTime() +  60 * 1000 - now.getTime();
+            const diff = miningStartTime.getTime() + 4 * 60 * 60 * 1000 - now.getTime();
             setTimeLeft(diff > 0 ? diff : 0);
         };
 
@@ -58,13 +58,11 @@ const MiningButton = ({ currentminingtime }) => {
                     <p className="text-gray-600 text-sm mt-2">Mining in progress...</p>
                 </div>
             ) : (
-                <button
-                    onClick={startMining}
-                    className="flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6 py-3 rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
-                >
-                    <span className="mr-2 text-lg font-semibold">Start Mining</span>
-                    <i className="fa-solid fa-money-bill-transfer fa-xl"></i>
-                </button>
+                <div className="btn" onClick={startMining}>
+                    <span className='btnText'>Start Mining</span>
+                    <i class="fa-solid fa-money-bill-transfer fa-xl" style={{ color: "white" }}></i>
+                </div>
+
             )}
         </div >
     );
