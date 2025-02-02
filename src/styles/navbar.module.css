@@ -43,11 +43,11 @@
   
   
   .active {
-    border-bottom: 3px solid #fb454c;
+    border-bottom: 3px solid#28a745;
   }
   
   .active a {
-    color: #fb454c;
+    color:#28a745;
   
   }
   

@@ -57,11 +57,11 @@ const Deposit = () => {
             <h1>Deposit</h1>
             <p>Send payment to this address and then submit and after that our team will verify the amount</p>
             <div className='d-flex align-items-center justify-content-center'>
-                <img width={300} style={{ background: "white" }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="scan this qrcode" />
+                <img width={300} style={{ background: "white" }} src="/image.jpg" alt="scan this qrcode" />
             </div>
             <div className='d-flex align-items-center justify-content-center my-3'>
-                <p className='mx-2' style={{ marginBottom: "0" }}>USDT(TRON) TTzV6TYQWgdwoYvNvqGDErtUrtQSkE79Nb</p>
-                <i onClick={() => { copyToClipboard('TTzV6TYQWgdwoYvNvqGDErtUrtQSkE79Nb') }} class="fa-solid fa-copy fa-lg pointer"></i>
+                <p className='mx-2' style={{ marginBottom: "0" }}>USDT(BEP20) 0x0350063A9dC6bF517D4c2C3763CaF3ffb0397af6</p>
+                <i onClick={() => { copyToClipboard('0x0350063A9dC6bF517D4c2C3763CaF3ffb0397af6') }} class="fa-solid fa-copy fa-lg pointer"></i>
             </div>
             <Form className='d-flex align-items-center justify-content-center my-4'>
                 <Form.Group controlId="formTitle">

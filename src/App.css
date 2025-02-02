@@ -7,19 +7,19 @@
   color: white;
 }
 .backroundrefferal{
-  /* background-image: url(../public/refferal.jpg); */
+  background-image: url(../public/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .homeback{
-  /* background-image: url(../public/dashboard.jpg); */
+  background-image: url(../public/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .accountback{
-  /* background-image: url(../public/account\ settings.jpg); */
+  background-image: url(../public/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

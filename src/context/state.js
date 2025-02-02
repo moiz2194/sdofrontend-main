@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import context from './context.js';
 import { toast } from 'react-toastify';
+import Swal from 'sweetalert2';
 const host = process.env.REACT_APP_BACKEND;
 
 const State = (props) => {
@@ -28,7 +29,9 @@ const State = (props) => {
     const json = await response.json();
     if (json.success) {
       localStorage.setItem('login-Dollar-tree-token', json.token)
-      window.location.reload()
+      Swal.fire("Welcome to Dollar Tree Investments!","At Dollar Tree, we’re all about helping you grow your money and reach your financial goals. We offer smart, easy-to-understand investment opportunities that are designed to fit your needs. Whether you’re just getting started or have experience in investing, we’re here to guide you every step of the way. Our team is dedicated to finding the right opportunities for you, with a focus on steady growth and smart choices. Let’s build your future together!",'info').then(()=>{
+        window.location.reload()
+      });
     } else {
       toast.error(json.message, {
         position: "top-center",

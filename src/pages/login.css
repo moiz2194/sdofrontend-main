@@ -3,7 +3,7 @@
 	font-weight: 300;
 	line-height: 1.7;
 	/* color: #EBBD4C; */
-	color: #fb454c;
+	color:#28a745;
   background-image: url(../../public/background.jpg);
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ a:hover {
 	text-decoration: none;
 }
 .link {
-  color: #fb454c;
+  color:#28a745;
   /* color: #EBBD4C; */
 }
 .link:hover {
@@ -56,7 +56,7 @@ display: none;
   margin: 10px auto;
   cursor: pointer;
   /* background-color: #EBBD4C; */
-  background-color: #fb454c;
+  background-color:#28a745;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -66,7 +66,7 @@ display: none;
   height: 36px;
   border-radius: 50%;
   /* color: #EBBD4C; */
-  color: #fb454c;
+  color:#28a745;
   background-color: #020305;
   font-family: 'unicons';
   content: '\eb4f';
@@ -181,13 +181,13 @@ display: none;
   display: inline-flex;
   align-items: center;
   /* background-color: #EBBD4C; */
-  background-color: #fb454c;
+  background-color:#28a745;
   color: black;
 }
 .btn:hover{  
   background-color: #000000;
   /* color: #EBBD4C; */
-  color: #fb454c;
+  color:#28a745;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
